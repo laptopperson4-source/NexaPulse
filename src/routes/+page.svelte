@@ -35,28 +35,28 @@
   <div class="feature-grid">
     <a class="feature-card store-card" href="/projects">
       <div class="feature-art art-store"><span class="art-window"></span><span class="art-line"></span><span class="art-dot"></span></div>
-      <div class="feature-meta"><span>01 / MARKETPLACE</span><span>IN DEVELOPMENT</span></div>
+      <div class="feature-meta"><span>01 / MARKETPLACE</span><span>BETA</span></div>
       <h3>NexaStore</h3>
       <p>A focused marketplace for independent developers and their applications.</p>
       <span class="card-arrow">↗</span>
     </a>
     <a class="feature-card pay-card" href="/projects">
       <div class="feature-art art-pay"><span class="pay-ring"></span><span class="pay-core">N</span><span class="pay-line"></span></div>
-      <div class="feature-meta"><span>02 / PAYMENT SYSTEM</span><span>IN DEVELOPMENT</span></div>
+      <div class="feature-meta"><span>02 / PAYMENT SYSTEM</span><span>BACK IN DEVELOPMENT</span></div>
       <h3>NexaPay</h3>
-      <p>An internal payment layer for connected NexaPulse products.</p>
+      <p>An internal payment system being redesigned for simpler, approval-based payments.</p>
       <span class="card-arrow">↗</span>
     </a>
     <a class="feature-card compute-card" href="/projects">
       <div class="feature-art art-compute"><span class="compute-grid"></span><span class="compute-node node-a"></span><span class="compute-node node-b"></span><span class="compute-node node-c"></span></div>
-      <div class="feature-meta"><span>03 / MODEL ENVIRONMENT</span><span>IN DEVELOPMENT</span></div>
+      <div class="feature-meta"><span>03 / MODEL ENVIRONMENT</span><span>NEAR COMPLETION</span></div>
       <h3>NexaPulse Compute</h3>
       <p>An environment for connecting and evaluating AI models across runtimes.</p>
       <span class="card-arrow">↗</span>
     </a>
     <a class="feature-card core-card" href="/projects">
       <div class="feature-art art-core"><span class="core-shape shape-a"></span><span class="core-shape shape-b"></span><span class="core-shape shape-c"></span></div>
-      <div class="feature-meta"><span>04 / INTELLIGENT PLATFORM</span><span>IN DEVELOPMENT</span></div>
+      <div class="feature-meta"><span>04 / INTELLIGENT PLATFORM</span><span>NEAR COMPLETION</span></div>
       <h3>NexaCore</h3>
       <p>An intelligent platform for adaptive interfaces, specialist systems and digital work.</p>
       <span class="card-arrow">↗</span>
