@@ -8,7 +8,7 @@
   <div class="hero-orbit orbit-two"></div>
   <div class="hero-center">
     <p class="eyebrow">INDEPENDENT DIGITAL SOFTWARE COMPANY</p>
-    <h1 id="hero-title">NexaPulse</h1>
+    <h1 id="hero-title">NexaPulse.</h1>
     <p class="hero-tagline">innovate.connect.elevate</p>
     <p class="hero-description">We build software products with a clear purpose, considered design and the engineering to support them.</p>
     <a class="hero-link" href="/projects">Explore our projects <span aria-hidden="true">↗</span></a>
