@@ -23,3 +23,25 @@
 
 
 @media(max-width:760px){.project-detail-page{padding:34px 24px 90px}.top-return-link{margin-bottom:34px}.project-editorial-grid{grid-template-columns:1fr;gap:44px}.project-detail-heading{position:static;padding:8px 0 34px;border-bottom:1px solid var(--line)}.project-detail-heading h1{font-size:clamp(58px,13vw,88px)}.project-detail-summary{font-size:17px}.project-detail-meta{gap:36px;margin-top:28px}.project-story{padding-top:0}.story-section{grid-template-columns:58px minmax(0,1fr);gap:20px;padding-bottom:34px;margin-bottom:32px}.story-number{font-size:52px}.story-copy>p:last-child{font-size:15px;line-height:1.8}}
+
+/* Restore Idea 1: editorial narrative project detail */
+.project-detail-page{max-width:1080px;margin:0 auto;padding:48px 54px 140px;min-height:calc(100vh - 100px)}
+.top-return-link{margin:0 0 24px}
+.project-detail-heading{padding:66px 0 66px;border-bottom:1px solid var(--line);position:static}
+.project-detail-heading .eyebrow{margin-bottom:18px}
+.project-detail-heading h1{font-size:clamp(70px,9vw,112px);font-weight:300;letter-spacing:-.08em;line-height:.95;margin:0;color:var(--ink)}
+.project-detail-summary{font-size:20px;line-height:1.6;color:#696166;max-width:680px;margin:25px 0 0}
+.project-detail-meta{display:flex;gap:64px;margin-top:42px}
+.project-detail-meta span{display:flex;flex-direction:column;gap:8px;font-size:13px;color:#494247}
+.project-detail-meta small{font-size:9px;letter-spacing:.18em;color:#958b90}
+.project-story{padding:28px 0 76px}
+.story-section{display:grid;grid-template-columns:150px minmax(0,680px);gap:44px;align-items:start;padding:48px 0 54px;margin:0;border-bottom:1px solid var(--line)}
+.story-section:first-child{border-top:1px solid var(--line);padding-top:48px}
+.story-number{font-size:clamp(76px,10vw,124px);font-weight:200;line-height:.82;letter-spacing:-.09em;color:rgba(116,29,49,.13);font-variant-numeric:tabular-nums}
+.story-copy{padding-top:5px}
+.story-index{font-size:9px;letter-spacing:.22em;color:var(--accent);margin:0 0 17px}
+.story-copy h2{font-size:clamp(29px,3vw,38px);font-weight:400;letter-spacing:-.055em;margin:0 0 18px;color:var(--ink)}
+.story-copy>p:last-child{font-size:16px;line-height:1.9;color:#6e676b;max-width:650px;margin:0}
+.project-story section{border-top:0}
+.project-story section:first-child{border-top:1px solid var(--line)}
+@media(max-width:760px){.project-detail-page{padding:34px 24px 90px}.top-return-link{margin-bottom:18px}.project-detail-heading{padding:48px 0 42px}.project-detail-heading h1{font-size:clamp(58px,13vw,88px)}.project-detail-summary{font-size:17px}.project-detail-meta{gap:36px;margin-top:28px}.project-story{padding-top:12px}.story-section{grid-template-columns:58px minmax(0,1fr);gap:20px;padding:34px 0 38px}.story-section:first-child{padding-top:34px}.story-number{font-size:52px}.story-copy>p:last-child{font-size:15px;line-height:1.8}}
