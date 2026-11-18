@@ -3,10 +3,17 @@
   <meta name="description" content="The founder's perspective on building NexaPulse, its products, principles and long-term ambition." />
 </svelte:head>
 
+<script lang="ts">
+  let nameExpanded = false;
+</script>
+
 <section class="founder-page page-shell">
   <header class="founder-hero">
     <p class="eyebrow">THE PERSON BEHIND THE COMPANY</p>
     <h1>The Founder<span>.</span></h1>
+    <button class="founder-name" type="button" aria-expanded={nameExpanded} aria-label={nameExpanded ? "Show Abubakar Oine" : "Reveal full name, Abubakar Ahmed Oine"} onclick={() => nameExpanded = !nameExpanded}>
+      <span class="name-first">Abubakar</span><span class:revealed={nameExpanded} class="name-middle" aria-hidden="true">Ahmed</span><span class="name-last">Oine</span><span class:line-expanded={nameExpanded} class="name-line" aria-hidden="true"></span>
+    </button>
     <p class="founder-lede">Building technology from the ground up, learning through experience.</p>
   </header>
 
@@ -58,3 +65,14 @@
     </section>
   </div>
 </section>
+
+
+<style>
+  .founder-name{display:inline-flex;align-items:center;gap:0;position:relative;margin:30px 0 0;padding:8px 0;background:transparent;border:0;color:var(--ink);font:inherit;font-size:clamp(27px,4vw,43px);font-weight:400;letter-spacing:-.055em;cursor:pointer;text-align:left}
+  .name-middle{display:inline-block;max-width:0;opacity:0;overflow:hidden;transform:translateX(-9px);transition:max-width .65s cubic-bezier(.2,.8,.2,1),opacity .35s ease,transform .65s cubic-bezier(.2,.8,.2,1);white-space:pre}
+  .name-middle.revealed{max-width:155px;opacity:1;transform:translateX(0);margin-left:.24em;margin-right:.24em}
+  .name-line{display:block;width:38px;height:2px;margin-left:18px;background:var(--accent);transform-origin:left;transition:width .65s cubic-bezier(.2,.8,.2,1),transform .65s cubic-bezier(.2,.8,.2,1)}
+  .name-line.line-expanded{width:62px;transform:translateX(8px)}
+  .founder-name:focus-visible{outline:2px solid var(--accent);outline-offset:7px;border-radius:2px}
+  @media(prefers-reduced-motion:reduce){.name-middle,.name-line{transition:none}}
+</style>
