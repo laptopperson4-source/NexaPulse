@@ -1,5 +1,6 @@
 <script lang="ts">
   import { page } from '$app/state';
+  import BrandMark from '$lib/BrandMark.svelte';
   let menuOpen = false;
   const links = [
     { label: 'Home', href: '/' },
@@ -12,7 +13,7 @@
 
 <header class="site-header">
   <a class="brand" href="/" aria-label="NexaPulse home">
-    <svg class="brand-mark" viewBox="0 0 42 42" aria-hidden="true"><path d="M5 31V10l13 21V10M22 22h6l4-9 4 17" /></svg>
+    <BrandMark size={36} />
     <span>NexaPulse</span>
   </a>
   <button class="mobile-menu-toggle" type="button" aria-label={menuOpen ? 'Close navigation' : 'Open navigation'} aria-expanded={menuOpen} onclick={() => menuOpen = !menuOpen}>
