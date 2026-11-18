@@ -1,6 +1,31 @@
 <svelte:head>
-  <title>The Founder of NexaPulse | Company Story</title>
-  <meta name="description" content="Read the story behind NexaPulse, from its early experiments to building independent software products, platforms and technology." />
+  <title>Abubakar Ahmed Oine | Founder of NexaPulse</title>
+  <meta name="description" content="Abubakar Ahmed Oine is the founder of NexaPulse, an independent digital software company building applications, platforms and software products." />
+  <meta name="author" content="Abubakar Ahmed Oine" />
+  <link rel="canonical" href="https://nexapulse.pro/founder" />
+  <meta property="og:title" content="Abubakar Ahmed Oine | Founder of NexaPulse" />
+  <meta property="og:description" content="Meet Abubakar Ahmed Oine, founder of NexaPulse. Read his story and approach to building independent digital software products." />
+  <meta property="og:url" content="https://nexapulse.pro/founder" />
+  <script type="application/ld+json">{JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "name": "Abubakar Ahmed Oine — Founder of NexaPulse",
+    "url": "https://nexapulse.pro/founder",
+    "mainEntity": {
+      "@type": "Person",
+      "@id": "https://nexapulse.pro/founder#person",
+      "name": "Abubakar Ahmed Oine",
+      "jobTitle": "Founder",
+      "url": "https://nexapulse.pro/founder",
+      "description": "Abubakar Ahmed Oine is the founder of NexaPulse, an independent digital software company.",
+      "worksFor": {
+        "@type": "Organization",
+        "@id": "https://nexapulse.pro/#organization",
+        "name": "NexaPulse",
+        "url": "https://nexapulse.pro/"
+      }
+    }
+  })}</script>
   <link rel="canonical" href="https://nexapulse.pro/founder" />
   <meta property="og:title" content="The Founder of NexaPulse | Company Story" />
   <meta property="og:description" content="The story, principles and long-term ambition behind NexaPulse." />
@@ -19,6 +44,7 @@
       <span class="name-first-group"><span class="name-first">Abubakar</span><span class:revealed={nameExpanded} class="name-middle" aria-hidden="true">Ahmed</span></span><span class:shifted={nameExpanded} class="name-last">Oine</span><span class:shifted={nameExpanded} class="name-line" aria-hidden="true"></span>
     </button>
     <p class="founder-lede">Building technology from the ground up, learning through experience.</p>
+    <p class="founder-identity">Abubakar Ahmed Oine is the founder of NexaPulse, an independent digital software company developing applications, platforms and software systems.</p>
   </header>
 
   <div class="founder-content">
@@ -72,6 +98,7 @@
 
 
 <style>
+  .founder-identity{max-width:620px;margin:22px 0 0;color:var(--muted);font-size:15px;line-height:1.75}
   .founder-name{display:inline-flex;align-items:center;position:relative;margin:30px 0 0;padding:8px 0;background:transparent;border:0;color:var(--ink);font:inherit;font-size:clamp(27px,4vw,43px);font-weight:400;letter-spacing:-.055em;cursor:pointer;text-align:left}
   .name-first-group{position:relative;display:inline-block}
   .name-middle{position:absolute;left:calc(100% + .24em);top:0;opacity:0;transform:translateX(-7px);transition:opacity .18s ease-out,transform .24s ease-out;white-space:nowrap;pointer-events:none}
