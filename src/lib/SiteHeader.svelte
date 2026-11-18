@@ -14,7 +14,7 @@
 <header class="site-header">
   <a class="brand" href="/" aria-label="NexaPulse home">
     <BrandMark size={36} />
-    <span>NexaPulse</span>
+    <span class="wordmark-reveal">NexaPulse</span>
   </a>
   <button class="mobile-menu-toggle" type="button" aria-label={menuOpen ? 'Close navigation' : 'Open navigation'} aria-expanded={menuOpen} onclick={() => menuOpen = !menuOpen}>
     <span></span><span></span>
