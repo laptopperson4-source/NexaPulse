@@ -5,14 +5,6 @@
   <meta property="og:title" content={data.project.name + " | NexaPulse"} />
   <meta property="og:description" content={data.project.summary} />
   <meta property="og:url" content={"https://nexapulse.pro/projects/" + data.project.slug} />
-  <script type="application/ld+json">{JSON.stringify({
-    "@context":"https://schema.org",
-    "@type":"CreativeWork",
-    "name":data.project.name,
-    "description":data.project.summary,
-    "url":"https://nexapulse.pro/projects/"+data.project.slug,
-    "creator":{"@type":"Organization","name":"NexaPulse","url":"https://nexapulse.pro/"}
-  })}</script>
 </svelte:head>
 <script lang="ts">export let data;</script>
 <article class="project-detail-page"><a class="next-project-link top-return-link" href="/projects">Return to the project path <span aria-hidden="true">↗</span></a>
