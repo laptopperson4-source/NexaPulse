@@ -8,7 +8,7 @@
   <div class="hero-orbit orbit-two"></div>
   <div class="hero-center">
     <p class="eyebrow">INDEPENDENT DIGITAL SOFTWARE COMPANY</p>
-    <div class="hero-globe" role="img" aria-label="Flat brushed-silver globe with softly curved longitude and latitude lines">
+    <div class="hero-globe" role="img" aria-label="Large three-dimensional brushed-silver globe with curved continents and slowly shifting rotation">
       <svg class="globe-art" viewBox="0 0 320 320" aria-hidden="true">
         <defs>
           <radialGradient id="globeMetal" cx="34%" cy="25%" r="78%">
