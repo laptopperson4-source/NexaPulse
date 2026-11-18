@@ -1,7 +1,80 @@
-<svelte:head><title>NexaPulse | innovate.connect.elevate</title></svelte:head>
+<svelte:head>
+  <title>NexaPulse | innovate.connect.elevate</title>
+  <meta name="description" content="Independent digital software company developing applications, platforms and software systems." />
+</svelte:head>
+
 <section class="home-hero" aria-labelledby="hero-title">
+  <div class="hero-orbit orbit-one"></div>
+  <div class="hero-orbit orbit-two"></div>
   <div class="hero-center">
+    <p class="eyebrow">INDEPENDENT DIGITAL SOFTWARE COMPANY</p>
     <h1 id="hero-title">NexaPulse</h1>
+    <p class="hero-tagline">innovate.connect.elevate</p>
+    <p class="hero-description">We build software products with a clear purpose, considered design and the engineering to support them.</p>
+    <a class="hero-link" href="/projects">Explore our projects <span aria-hidden="true">↗</span></a>
   </div>
-  <p class="hero-tagline">innovate.connect.elevate</p>
+  <div class="hero-bottom"><span>PRODUCTS · PLATFORMS · SOFTWARE</span><span>SCROLL TO EXPLORE ↓</span></div>
+</section>
+
+<section class="home-intro">
+  <div class="section-marker"><span>01</span><span>THE COMPANY</span></div>
+  <div class="intro-layout">
+    <h2>Built around ideas.<br /><em>Made into software.</em></h2>
+    <div class="intro-detail">
+      <p>NexaPulse develops digital products across applications, platforms and software infrastructure. Each project is shaped around the problem it is intended to solve.</p>
+      <a class="text-link" href="/about">About NexaPulse <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="featured-projects">
+  <div class="section-heading">
+    <div class="section-marker"><span>02</span><span>SELECTED WORK</span></div>
+    <a class="text-link" href="/projects">All projects <span aria-hidden="true">↗</span></a>
+  </div>
+  <div class="feature-grid">
+    <a class="feature-card store-card" href="/projects">
+      <div class="feature-art art-store"><span class="art-window"></span><span class="art-line"></span><span class="art-dot"></span></div>
+      <div class="feature-meta"><span>01 / MARKETPLACE</span><span>IN DEVELOPMENT</span></div>
+      <h3>NexaStore</h3>
+      <p>A focused marketplace for independent developers and their applications.</p>
+      <span class="card-arrow">↗</span>
+    </a>
+    <a class="feature-card pay-card" href="/projects">
+      <div class="feature-art art-pay"><span class="pay-ring"></span><span class="pay-core">N</span><span class="pay-line"></span></div>
+      <div class="feature-meta"><span>02 / PAYMENT SYSTEM</span><span>IN DEVELOPMENT</span></div>
+      <h3>NexaPay</h3>
+      <p>An internal payment layer for connected NexaPulse products.</p>
+      <span class="card-arrow">↗</span>
+    </a>
+    <a class="feature-card compute-card" href="/projects">
+      <div class="feature-art art-compute"><span class="compute-grid"></span><span class="compute-node node-a"></span><span class="compute-node node-b"></span><span class="compute-node node-c"></span></div>
+      <div class="feature-meta"><span>03 / MODEL ENVIRONMENT</span><span>IN DEVELOPMENT</span></div>
+      <h3>NexaPulse Compute</h3>
+      <p>An environment for connecting and evaluating AI models across runtimes.</p>
+      <span class="card-arrow">↗</span>
+    </a>
+    <a class="feature-card core-card" href="/projects">
+      <div class="feature-art art-core"><span class="core-shape shape-a"></span><span class="core-shape shape-b"></span><span class="core-shape shape-c"></span></div>
+      <div class="feature-meta"><span>04 / INTELLIGENT PLATFORM</span><span>IN DEVELOPMENT</span></div>
+      <h3>NexaCore</h3>
+      <p>An intelligent platform for adaptive interfaces, specialist systems and digital work.</p>
+      <span class="card-arrow">↗</span>
+    </a>
+  </div>
+</section>
+
+<section class="principles-section">
+  <div class="section-marker"><span>03</span><span>HOW WE WORK</span></div>
+  <div class="principles-heading"><h2>Purpose first.<br /><em>Details matter.</em></h2><p>Good software is more than a working feature. It should be understandable, coherent and built to serve a real use.</p></div>
+  <div class="principle-list">
+    <article><span>01</span><div><h3>Clear purpose</h3><p>Every product starts with a defined function and a reason to exist.</p></div></article>
+    <article><span>02</span><div><h3>Independent thinking</h3><p>Products are given their own identity, requirements and direction.</p></div></article>
+    <article><span>03</span><div><h3>Thoughtful execution</h3><p>Design and engineering decisions are made to support the product, not decorate it.</p></div></article>
+  </div>
+</section>
+
+<section class="contact-close">
+  <div class="section-marker"><span>04</span><span>START A CONVERSATION</span></div>
+  <div class="contact-close-inner"><h2>Have something<br /><em>in mind?</em></h2><a href="/contact">Contact NexaPulse <span aria-hidden="true">↗</span></a></div>
 </section>
