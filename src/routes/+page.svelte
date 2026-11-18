@@ -8,6 +8,15 @@
   <div class="hero-orbit orbit-two"></div>
   <div class="hero-center">
     <p class="eyebrow">INDEPENDENT DIGITAL SOFTWARE COMPANY</p>
+    <div class="hero-trophy" role="img" aria-label="Sculptural silver trophy with an original world-champion-inspired silhouette">
+      <span class="trophy-handle trophy-handle-left"></span>
+      <span class="trophy-handle trophy-handle-right"></span>
+      <span class="trophy-cup"><span class="trophy-cup-inner"></span><span class="trophy-emblem">N</span></span>
+      <span class="trophy-stem"></span>
+      <span class="trophy-foot"></span>
+      <span class="trophy-base trophy-base-top"></span>
+      <span class="trophy-base trophy-base-bottom"></span>
+    </div>
     <h1 id="hero-title">NexaPulse</h1>
     <p class="hero-tagline">innovate.connect.elevate</p>
     <p class="hero-description">We build software products with a clear purpose, considered design and the engineering to support them.</p>
