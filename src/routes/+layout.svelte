@@ -1,17 +1,6 @@
 <script lang="ts">
-  import { onNavigate } from '$app/navigation';
   import SiteHeader from '$lib/SiteHeader.svelte';
   import '../app.css';
-
-  onNavigate((navigation) => {
-    if (!document.startViewTransition) return;
-    return new Promise<void>((resolve) => {
-      document.startViewTransition(async () => {
-        resolve();
-        await navigation.complete;
-      });
-    });
-  });
 </script>
 
 <svelte:head>
