@@ -1,5 +1,6 @@
 <script lang="ts">
   import SiteHeader from '$lib/SiteHeader.svelte';
+  import BrandMark from '$lib/BrandMark.svelte';
   import '../app.css';
 </script>
 
@@ -15,7 +16,7 @@
 <SiteHeader />
 <main class="site-main"><slot /></main>
 <footer class="site-footer">
-  <a class="footer-brand" href="/">NexaPulse<span>®</span></a>
+  <a class="footer-brand" href="/"><BrandMark size={30} /><span class="footer-brand-name">NexaPulse</span><sup>®</sup></a>
   <p>Independent digital software company.</p>
   <nav aria-label="Footer navigation">
     <a href="/projects">Projects</a>
