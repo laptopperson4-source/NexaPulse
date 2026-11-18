@@ -1,4 +1,18 @@
-<svelte:head><title>Projects | NexaPulse</title><meta name="description" content="Explore the projects being developed by NexaPulse."/></svelte:head>
+<svelte:head>
+  <title>NexaPulse Projects | Apps, Platforms and Software</title>
+  <meta name="description" content="Explore NexaPulse projects, including developer tools, game creation software, 3D environment generation and intelligent platforms." />
+  <link rel="canonical" href="https://nexapulse.pro/projects" />
+  <meta property="og:title" content="NexaPulse Projects | Apps, Platforms and Software" />
+  <meta property="og:description" content="Explore applications, platforms and software systems in development at NexaPulse." />
+  <meta property="og:url" content="https://nexapulse.pro/projects" />
+  <script type="application/ld+json">{JSON.stringify({
+    "@context":"https://schema.org",
+    "@type":"ItemList",
+    "name":"NexaPulse projects",
+    "itemListElement":projects.map((project,index)=>({"@type":"ListItem","position":index+1,"name":project.name,"url":`https://nexapulse.pro/projects/${project.slug}`}))
+  })}</script>
+</svelte:head>
+<script lang="ts">import { projects } from '$lib/projects';</script>
 <script lang="ts">import { projects } from '$lib/projects';</script>
 <section class="projects-page">
 <header class="projects-intro"><p class="eyebrow">THE WORK IN PROGRESS</p><h1>Projects<span>.</span></h1><p class="projects-note">Ordered by expected completion, from the most advanced to the earliest-stage work.</p></header>
