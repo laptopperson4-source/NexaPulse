@@ -13,7 +13,6 @@
   })}</script>
 </svelte:head>
 <script lang="ts">import { projects } from '$lib/projects';</script>
-<script lang="ts">import { projects } from '$lib/projects';</script>
 <section class="projects-page">
 <header class="projects-intro"><p class="eyebrow">THE WORK IN PROGRESS</p><h1>Projects<span>.</span></h1><p class="projects-note">Ordered by expected completion, from the most advanced to the earliest-stage work.</p></header>
 <div class="project-path" aria-label="NexaPulse project development path">
