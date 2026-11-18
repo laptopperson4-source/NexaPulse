@@ -20,7 +20,6 @@
   <div class="intro-layout">
     <h2>Built around ideas.<br /><em>Made into software.</em></h2>
     <div class="intro-detail">
-      <p>NexaPulse develops digital products across applications, platforms and software infrastructure. Each project is shaped around the problem it is intended to solve.</p>
       <a class="text-link" href="/about">About NexaPulse <span aria-hidden="true">↗</span></a>
     </div>
   </div>
