@@ -74,3 +74,15 @@
   .founder-section-copy h2{font-size:31px;margin-bottom:18px}
   .founder-section-copy p{font-size:15px;line-height:1.8}
 }
+
+/* Homepage wordmark entrance */
+.home-hero .hero-center h1{
+  animation:hero-wordmark-enter 1.15s cubic-bezier(.2,.75,.25,1) both;
+}
+@keyframes hero-wordmark-enter{
+  from{opacity:0;transform:translateX(-72px)}
+  to{opacity:1;transform:translateX(0)}
+}
+@media(prefers-reduced-motion:reduce){
+  .home-hero .hero-center h1{animation:none}
+}
