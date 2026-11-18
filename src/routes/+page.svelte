@@ -1,6 +1,17 @@
 <svelte:head>
-  <title>NexaPulse | innovate.connect.elevate</title>
-  <meta name="description" content="Independent digital software company developing applications, platforms and software systems." />
+  <title>NexaPulse | Independent Digital Software Company</title>
+  <meta name="description" content="NexaPulse is an independent digital software company building applications, developer platforms and software systems with clear purpose." />
+  <link rel="canonical" href="https://nexapulse.pro/" />
+  <meta property="og:title" content="NexaPulse | Independent Digital Software Company" />
+  <meta property="og:description" content="NexaPulse builds independent digital products, applications and software platforms with clear purpose." />
+  <meta property="og:url" content="https://nexapulse.pro/" />
+  <script type="application/ld+json">{JSON.stringify({
+    "@context":"https://schema.org",
+    "@graph":[
+      {"@type":"Organization","@id":"https://nexapulse.pro/#organization","name":"NexaPulse","url":"https://nexapulse.pro/","description":"An independent digital software company building applications, developer platforms and software systems.","email":"info@nexapulse.pro"},
+      {"@type":"WebSite","@id":"https://nexapulse.pro/#website","url":"https://nexapulse.pro/","name":"NexaPulse","publisher":{"@id":"https://nexapulse.pro/#organization"}}
+    ]
+  })}</script>
 </svelte:head>
 
 <section class="home-hero" aria-labelledby="hero-title">
