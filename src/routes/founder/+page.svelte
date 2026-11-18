@@ -6,26 +6,23 @@
   <meta property="og:title" content="Abubakar Ahmed Oine | Founder of NexaPulse" />
   <meta property="og:description" content="Meet Abubakar Ahmed Oine, founder of NexaPulse. Read his story and approach to building independent digital software products." />
   <meta property="og:url" content="https://nexapulse.pro/founder" />
-  <script type="application/ld+json">{JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "ProfilePage",
-    "name": "Abubakar Ahmed Oine — Founder of NexaPulse",
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "name": "Abubakar Ahmed Oine — Founder of NexaPulse",
+  "url": "https://nexapulse.pro/founder",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://nexapulse.pro/founder#person",
+    "name": "Abubakar Ahmed Oine",
+    "jobTitle": "Founder",
     "url": "https://nexapulse.pro/founder",
-    "mainEntity": {
-      "@type": "Person",
-      "@id": "https://nexapulse.pro/founder#person",
-      "name": "Abubakar Ahmed Oine",
-      "jobTitle": "Founder",
-      "url": "https://nexapulse.pro/founder",
-      "description": "Abubakar Ahmed Oine is the founder of NexaPulse, an independent digital software company.",
-      "worksFor": {
-        "@type": "Organization",
-        "@id": "https://nexapulse.pro/#organization",
-        "name": "NexaPulse",
-        "url": "https://nexapulse.pro/"
-      }
-    }
-  })}</script>
+    "description": "Abubakar Ahmed Oine is the founder of NexaPulse, an independent digital software company.",
+    "worksFor": {"@id": "https://nexapulse.pro/#organization"}
+  }
+}
+</script>
 </svelte:head>
 
 <script lang="ts">
