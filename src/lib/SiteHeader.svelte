@@ -1,5 +1,6 @@
 <script lang="ts">
   import { page } from '$app/state';
+  let menuOpen = false;
   const links = [
     { label: 'Home', href: '/' },
     { label: 'Projects', href: '/projects' },
@@ -14,9 +15,12 @@
     <svg class="brand-mark" viewBox="0 0 42 42" aria-hidden="true"><path d="M5 31V10l13 21V10M22 22h6l4-9 4 17" /></svg>
     <span>NexaPulse</span>
   </a>
-  <nav aria-label="Main navigation">
+  <button class="mobile-menu-toggle" type="button" aria-label={menuOpen ? 'Close navigation' : 'Open navigation'} aria-expanded={menuOpen} onclick={() => menuOpen = !menuOpen}>
+    <span></span><span></span>
+  </button>
+  <nav class:mobile-open={menuOpen} aria-label="Main navigation">
     {#each links as link}
-      <a class:active={page.url.pathname === link.href} aria-current={page.url.pathname === link.href ? 'page' : undefined} href={link.href}>{link.label}</a>
+      <a class:active={page.url.pathname === link.href} aria-current={page.url.pathname === link.href ? 'page' : undefined} href={link.href} onclick={() => menuOpen = false}>{link.label}</a>
     {/each}
   </nav>
 </header>
