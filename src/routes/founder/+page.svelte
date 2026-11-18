@@ -1,6 +1,10 @@
 <svelte:head>
-  <title>The Founder | NexaPulse</title>
-  <meta name="description" content="The founder's perspective on building NexaPulse, its products, principles and long-term ambition." />
+  <title>The Founder of NexaPulse | Company Story</title>
+  <meta name="description" content="Read the story behind NexaPulse, from its early experiments to building independent software products, platforms and technology." />
+  <link rel="canonical" href="https://nexapulse.pro/founder" />
+  <meta property="og:title" content="The Founder of NexaPulse | Company Story" />
+  <meta property="og:description" content="The story, principles and long-term ambition behind NexaPulse." />
+  <meta property="og:url" content="https://nexapulse.pro/founder" />
 </svelte:head>
 
 <script lang="ts">
