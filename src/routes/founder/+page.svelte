@@ -26,10 +26,6 @@
       }
     }
   })}</script>
-  <link rel="canonical" href="https://nexapulse.pro/founder" />
-  <meta property="og:title" content="The Founder of NexaPulse | Company Story" />
-  <meta property="og:description" content="The story, principles and long-term ambition behind NexaPulse." />
-  <meta property="og:url" content="https://nexapulse.pro/founder" />
 </svelte:head>
 
 <script lang="ts">
