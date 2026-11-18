@@ -19,5 +19,4 @@
       <a class:active={page.url.pathname === link.href} aria-current={page.url.pathname === link.href ? 'page' : undefined} href={link.href}>{link.label}</a>
     {/each}
   </nav>
-  <a class="header-action" href="/projects">Explore <span aria-hidden="true">↗</span></a>
 </header>
