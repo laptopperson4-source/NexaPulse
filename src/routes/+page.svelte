@@ -8,14 +8,42 @@
   <div class="hero-orbit orbit-two"></div>
   <div class="hero-center">
     <p class="eyebrow">INDEPENDENT DIGITAL SOFTWARE COMPANY</p>
-    <div class="hero-trophy" role="img" aria-label="Sculptural silver trophy with an original world-champion-inspired silhouette">
-      <span class="trophy-handle trophy-handle-left"></span>
-      <span class="trophy-handle trophy-handle-right"></span>
-      <span class="trophy-cup"><span class="trophy-cup-inner"></span><span class="trophy-emblem">N</span></span>
-      <span class="trophy-stem"></span>
-      <span class="trophy-foot"></span>
-      <span class="trophy-base trophy-base-top"></span>
-      <span class="trophy-base trophy-base-bottom"></span>
+    <div class="hero-globe" role="img" aria-label="Flat brushed-silver globe with softly curved longitude and latitude lines">
+      <svg class="globe-art" viewBox="0 0 320 320" aria-hidden="true">
+        <defs>
+          <radialGradient id="globeMetal" cx="34%" cy="25%" r="78%">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="28%" stop-color="#e8e9e9"/>
+            <stop offset="62%" stop-color="#b8babc"/>
+            <stop offset="84%" stop-color="#f6f6f4"/>
+            <stop offset="100%" stop-color="#85878a"/>
+          </radialGradient>
+          <linearGradient id="globeSheen" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#fff" stop-opacity=".9"/>
+            <stop offset="42%" stop-color="#fff" stop-opacity=".05"/>
+            <stop offset="100%" stop-color="#55585c" stop-opacity=".24"/>
+          </linearGradient>
+          <clipPath id="globeClip"><circle cx="160" cy="160" r="137"/></clipPath>
+        </defs>
+        <circle cx="160" cy="160" r="137" fill="url(#globeMetal)" stroke="#fff" stroke-opacity=".9" stroke-width="2"/>
+        <g clip-path="url(#globeClip)" fill="none" stroke="#74777b" stroke-opacity=".48" stroke-width="1.35">
+          <ellipse cx="160" cy="160" rx="53" ry="137"/>
+          <ellipse cx="160" cy="160" rx="103" ry="137"/>
+          <path d="M23 160H297"/>
+          <ellipse cx="160" cy="160" rx="137" ry="48"/>
+          <ellipse cx="160" cy="160" rx="137" ry="94"/>
+          <path d="M35 103C99 130 221 130 285 103M35 217C99 190 221 190 285 217"/>
+        </g>
+        <g clip-path="url(#globeClip)" fill="#777a7e" fill-opacity=".23" stroke="#fff" stroke-opacity=".55" stroke-width="1">
+          <path d="M77 83l18-16 24 4 12 14-8 14 11 10-7 15-18 3-10 18-17-8-9-19-18-7 6-17z"/>
+          <path d="M126 155l20-13 18 5 11 19-7 19 9 18-14 28-16 20-12-17-3-23-12-16 6-20z"/>
+          <path d="M183 87l20-13 30 8 16 17-10 17-21 1-9 15-20-8-16-19z"/>
+          <path d="M220 176l22-7 19 12 8 20-13 14-21-5-16-15z"/>
+        </g>
+        <circle cx="160" cy="160" r="137" fill="url(#globeSheen)" stroke="#777a7d" stroke-opacity=".18" stroke-width="1"/>
+        <path d="M66 82C91 48 130 27 172 24" fill="none" stroke="#fff" stroke-opacity=".78" stroke-width="5" stroke-linecap="round"/>
+      </svg>
+      <span class="globe-reflection"></span>
     </div>
     <h1 id="hero-title">NexaPulse</h1>
     <p class="hero-tagline">innovate.connect.elevate</p>
