@@ -5,12 +5,6 @@
   <meta property="og:title" content="NexaPulse Projects | Apps, Platforms and Software" />
   <meta property="og:description" content="Explore applications, platforms and software systems in development at NexaPulse." />
   <meta property="og:url" content="https://nexapulse.pro/projects" />
-  <script type="application/ld+json">{JSON.stringify({
-    "@context":"https://schema.org",
-    "@type":"ItemList",
-    "name":"NexaPulse projects",
-    "itemListElement":projects.map((project,index)=>({"@type":"ListItem","position":index+1,"name":project.name,"url":`https://nexapulse.pro/projects/${project.slug}`}))
-  })}</script>
 </svelte:head>
 <script lang="ts">import { projects } from '$lib/projects';</script>
 <section class="projects-page">
