@@ -1,7 +1,3 @@
-<script>
-  import Globe from "$lib/Globe.svelte";
-</script>
-
 <svelte:head>
   <title>NexaPulse | innovate.connect.elevate</title>
   <meta name="description" content="Independent digital software company developing applications, platforms and software systems." />
@@ -12,7 +8,6 @@
   <div class="hero-orbit orbit-two"></div>
   <div class="hero-center">
     <p class="eyebrow">INDEPENDENT DIGITAL SOFTWARE COMPANY</p>
-    <Globe />
     <h1 id="hero-title">NexaPulse</h1>
     <p class="hero-tagline">innovate.connect.elevate</p>
     <p class="hero-description">We build software products with a clear purpose, considered design and the engineering to support them.</p>
