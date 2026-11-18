@@ -1,13 +1,38 @@
 <script lang="ts">
+  import { onNavigate } from '$app/navigation';
   import SiteHeader from '$lib/SiteHeader.svelte';
   import '../app.css';
+
+  onNavigate((navigation) => {
+    if (!document.startViewTransition) return;
+    return new Promise<void>((resolve) => {
+      document.startViewTransition(async () => {
+        resolve();
+        await navigation.complete;
+      });
+    });
+  });
 </script>
+
 <svelte:head>
   <title>NexaPulse | innovate.connect.elevate</title>
   <meta name="description" content="NexaPulse is an independent digital software company building apps, platforms and digital products." />
+  <meta name="theme-color" content="#f3f1ef" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 </svelte:head>
+
 <SiteHeader />
-<main><slot /></main>
+<main class="site-main"><slot /></main>
+<footer class="site-footer">
+  <a class="footer-brand" href="/">NexaPulse<span>®</span></a>
+  <p>Independent digital software company.</p>
+  <nav aria-label="Footer navigation">
+    <a href="/projects">Projects</a>
+    <a href="/about">About</a>
+    <a href="/founder">Founder</a>
+    <a href="/contact">Contact</a>
+  </nav>
+  <small>© {new Date().getFullYear()} NexaPulse. All rights reserved.</small>
+</footer>
