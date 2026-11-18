@@ -7,7 +7,7 @@
   <header class="founder-hero">
     <p class="eyebrow">THE PERSON BEHIND THE COMPANY</p>
     <h1>The Founder<span>.</span></h1>
-    <p class="founder-lede">Building technology from the ground up, learning through experience, and creating what comes next.</p>
+    <p class="founder-lede">Building technology from the ground up, learning through experience.</p>
   </header>
 
   <div class="founder-content">
@@ -52,15 +52,7 @@
         <p>I don't want NexaPulse to stop at apps and software platforms. Over time, I want it to grow into other industries, including engineering and machinery.</p>
         <p>I'm drawn to things that are possible but haven't been tried, either because nobody noticed the opportunity or nobody chose to pursue it. My hope is that what we make becomes so useful that people find it hard to imagine life without it.</p>
         <p>I don't measure that by the size of the company. I'd rather be judged by what we've actually made.</p>
-      </div>
-    </section>
-
-    <section class="founder-section">
-      <p class="founder-section-index">05 / WHAT COMES NEXT</p>
-      <div class="founder-section-copy">
-        <h2>What comes next</h2>
-        <p>As NexaPulse grows, we plan to launch NexaPulse AI, a separate company focused on building AI products and developing them into full startups. The goal is to build businesses that have the technology, infrastructure and support to keep going after the first version ships.</p>
-        <p>Building technology from scratch was harder than I expected. It also turned out to be more manageable than I feared. Problems that once felt overwhelming became things I could work through, one at a time.</p>
+        <p>As NexaPulse grows, we also plan to launch <strong>NexaPulse AI</strong>, a separate company focused on building AI products and developing them into full startups.</p>
         <p class="founder-closing">NexaPulse is where that has taken me so far, and I plan to take it a lot further.</p>
       </div>
     </section>
