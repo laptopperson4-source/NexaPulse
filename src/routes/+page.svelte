@@ -5,13 +5,30 @@
   <meta property="og:title" content="NexaPulse | Independent Digital Software Company" />
   <meta property="og:description" content="NexaPulse builds independent digital products, applications and software platforms with clear purpose." />
   <meta property="og:url" content="https://nexapulse.pro/" />
-  <script type="application/ld+json">{JSON.stringify({
-    "@context":"https://schema.org",
-    "@graph":[
-      {"@type":"Organization","@id":"https://nexapulse.pro/#organization","name":"NexaPulse","url":"https://nexapulse.pro/","description":"An independent digital software company building applications, developer platforms and software systems.","email":"info@nexapulse.pro","logo":{"@type":"ImageObject","url":"https://nexapulse.pro/nexapulse-logo.svg"},"founder":{"@id":"https://nexapulse.pro/founder#person"}},
-      {"@type":"WebSite","@id":"https://nexapulse.pro/#website","url":"https://nexapulse.pro/","name":"NexaPulse","publisher":{"@id":"https://nexapulse.pro/#organization"}}
-    ]
-  })}</script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://nexapulse.pro/#organization",
+      "name": "NexaPulse",
+      "url": "https://nexapulse.pro/",
+      "description": "An independent digital software company building applications, developer platforms and software systems.",
+      "email": "info@nexapulse.pro",
+      "logo": {"@type": "ImageObject", "url": "https://nexapulse.pro/nexapulse-logo.svg"},
+      "founder": {"@id": "https://nexapulse.pro/founder#person"}
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://nexapulse.pro/#website",
+      "url": "https://nexapulse.pro/",
+      "name": "NexaPulse",
+      "publisher": {"@id": "https://nexapulse.pro/#organization"}
+    }
+  ]
+}
+</script>
 </svelte:head>
 
 <section class="home-hero" aria-labelledby="hero-title">
