@@ -183,3 +183,12 @@
   .founder-name{font-size:22px}
   .name-last.shifted,.name-line.shifted{transform:translateX(2.8em)}
 }
+
+/* NexaPulse custom monogram lockup */
+.brand{gap:10px}
+.brand .nexapulse-mark{width:36px;height:36px}
+.footer-brand{display:inline-flex;align-items:center;gap:9px;width:max-content}
+.footer-brand .nexapulse-mark{width:30px;height:30px}
+.footer-brand-name{font-size:23px;font-weight:500;letter-spacing:-.045em}
+.footer-brand sup{font-size:9px;align-self:flex-start;margin:2px 0 0 -5px}
+@media(max-width:760px){.brand .nexapulse-mark{width:31px;height:31px}.footer-brand .nexapulse-mark{width:28px;height:28px}}
