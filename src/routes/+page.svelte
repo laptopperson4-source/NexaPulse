@@ -36,14 +36,6 @@
   <div class="hero-orbit orbit-two"></div>
   <div class="hero-center">
     <p class="eyebrow">INDEPENDENT DIGITAL SOFTWARE COMPANY</p>
-    <div class="cube-loader" aria-hidden="true">
-      <div class="cube-wrapper">
-        <span class="cube-span" style="--i: 0"></span>
-        <span class="cube-span" style="--i: 1"></span>
-        <span class="cube-span" style="--i: 2"></span>
-        <span class="cube-span" style="--i: 3"></span>
-        <span class="cube-top"></span>
-      </div>
     </div>
     <h1 id="hero-title" class="wordmark-reveal hero-wordmark">NexaPulse.</h1>
     <p class="hero-tagline">innovate.connect.elevate</p>
